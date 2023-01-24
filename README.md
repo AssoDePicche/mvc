@@ -16,3 +16,7 @@ MVC Framework
 - [ ] Session Flash Messages
 - [ ] Middlewares
 - [ ] Application Events
+
+## CLI Commands
+
+- [ ] composer run server (starts the app at localhost:3000)
