@@ -8,6 +8,7 @@
       "ValueObject\\": "src/domain/valueobject",
       "Controller\\": "src/infrastructure/controller",
       "Http\\": "src/infrastructure/http",
+      "Logger\\": "src/infrastructure/logger",
       "Router\\": "src/infrastructure/router",
       "Util\\": "src/util",
       "Test\\": "test"
