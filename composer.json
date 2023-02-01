@@ -3,7 +3,7 @@
     "psr-4": {
       "CMD\\": "cmd/",
       "Application\\": "src/application",
-      "Database\\": "src/database",
+      "Model\\": "src/database/model",
       "Domain\\": "src/domain",
       "ValueObject\\": "src/domain/valueobject",
       "Controller\\": "src/infrastructure/controller",
