@@ -8,6 +8,16 @@ use Util\Singleton;
 
 final class Logger extends Singleton
 {
+    public const CRITICAL = 'CRITICAL';
+
+    public const ERROR = 'ERROR';
+
+    public const WARNING = 'WARNING';
+
+    public const INFO = 'INFO';
+
+    public const DEBUG = 'DEBUG';
+
     private mixed $stream;
 
     protected function __construct()
