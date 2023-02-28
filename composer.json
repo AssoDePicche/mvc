@@ -1,6 +1,8 @@
 {
   "autoload": {
-    "psr-4": {}
+    "psr-4": {
+      "Router\\": "src/router"
+    }
   },
   "scripts": {
     "server": "php -S localhost:3000 -t public",
