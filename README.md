@@ -52,3 +52,9 @@ You can clone the repository on your desktop or simply download the compressed f
 ```bash
 git@github.com:AssoDePicche/mvc.git
 ```
+
+To install the framework dependencies you must use the `composer install` command in your terminal.
+
+```bash
+composer install
+```
