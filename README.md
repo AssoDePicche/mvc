@@ -36,9 +36,10 @@ The controller contains logic that updates the model and/or view in response to 
 - [ ] Logs
 - [ ] Application Events
 
-## Dependecies
+## Dependencies
 
 - [ ] PHPUnit (development)
+- [ ] Twig
 
 ## CLI Commands
 
