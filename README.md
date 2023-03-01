@@ -22,7 +22,7 @@ The controller contains logic that updates the model and/or view in response to 
 
 ## Features
 
-- [ ] Custom Routing
+- [x] Custom Routing
 - [ ] Controllers
 - [ ] Views
 - [ ] Models
