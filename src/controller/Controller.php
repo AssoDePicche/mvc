@@ -9,7 +9,7 @@ use Twig\Loader\FilesystemLoader;
 
 abstract class Controller
 {
-    public final static function make(string $view): void
+    protected final static function make(string $view, array $data = []): void
     {
         $cache = dirname(__DIR__, 2) . '\\storage\\cache\\';
 
@@ -21,6 +21,6 @@ abstract class Controller
             'cache' => $cache
         ]);
 
-        echo $twig->display($view);
+        echo $twig->display($view, $data);
     }
 }
