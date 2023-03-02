@@ -47,5 +47,7 @@ final class Router
         }
 
         $this->request = $method === 'GET' ? $_GET : $_POST;
+
+        call_user_func($this->routes[$method][$route]);
     }
 }
