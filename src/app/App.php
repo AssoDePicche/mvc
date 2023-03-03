@@ -17,6 +17,10 @@ readonly final class App
 
     public function run(): void
     {
-        $this->router->run();
+        try {
+            $this->router->run();
+        } catch (\Exception $exception) {
+            \Controller\ErrorController::index($exception->getCode(), $exception->getMessage());
+        }
     }
 }
