@@ -33,7 +33,7 @@ The controller contains logic that updates the model and/or view in response to 
 - [ ] Active Record
 - [ ] Session Flash Messages
 - [ ] Middlewares
-- [ ] Logs
+- [x] Logs
 - [ ] Application Events
 
 ## Dependencies
