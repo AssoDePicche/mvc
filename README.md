@@ -24,7 +24,7 @@ The controller contains logic that updates the model and/or view in response to 
 
 - [x] Custom Routing
 - [x] Controllers
-- [ ] Views
+- [x] Views
 - [ ] Models
 - [ ] Migrations
 - [ ] Form Widget Classes
