@@ -11,14 +11,10 @@ abstract class Controller
 {
     protected final static function make(string $view, array $data = []): void
     {
-        $cache = dirname(__DIR__, 2) . '\\storage\\cache\\';
-
-        $template = dirname(__DIR__, 2) . '\\src\\view\\';
-
-        $loader = new FilesystemLoader($template);
+        $loader = new FilesystemLoader(VIEW_DIRECTORY);
 
         $twig = new Environment($loader, [
-            'cache' => $cache
+            'cache' => CACHE_STORAGE
         ]);
 
         echo $twig->display($view, $data);
