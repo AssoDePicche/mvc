@@ -7,7 +7,10 @@
       "Logger\\": "src/logger",
       "Model\\": "src/model",
       "Router\\": "src/router"
-    }
+    },
+    "files": [
+      "src/config/Config.php"
+    ]
   },
   "scripts": {
     "server": "php -S localhost:3000 -t public",
