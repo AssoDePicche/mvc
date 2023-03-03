@@ -22,7 +22,7 @@ readonly final class Logger
 
     public function __construct()
     {
-        $this->stream = fopen('logs/app.log', 'a+');
+        $this->stream = fopen(LOG_FILE, 'a+');
     }
 
     public function __destruct()
