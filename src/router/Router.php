@@ -8,7 +8,7 @@ final class Router
 {
     private array $routes, $request;
 
-    public function __call(string $method, array $arguments): bool
+    public function __call(string $method, array $arguments): void
     {
         $method = strtoupper($method);
 
@@ -23,8 +23,6 @@ final class Router
         }
 
         $this->routes[$method][$route] = $callback;
-
-        return true;
     }
 
     public function getRequest(): array
