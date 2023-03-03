@@ -38,6 +38,7 @@ The controller contains logic that updates the model and/or view in response to 
 
 ## Dependencies
 
+- [ ] PHP Dotenv
 - [ ] PHPUnit (development)
 - [ ] Twig
 
