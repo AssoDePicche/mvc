@@ -1,0 +1,9 @@
+<?php
+
+define('PROJECT_ROOT', dirname(__DIR__, 2));
+
+define('CACHE_STORAGE', PROJECT_ROOT . DIRECTORY_SEPARATOR . 'cache');
+
+define('LOG_FILE', PROJECT_ROOT . DIRECTORY_SEPARATOR . 'logs' . DIRECTORY_SEPARATOR . 'app.log');
+
+define('VIEW_DIRECTORY', PROJECT_ROOT . DIRECTORY_SEPARATOR . 'src' . DIRECTORY_SEPARATOR . 'view');
