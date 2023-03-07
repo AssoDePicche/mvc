@@ -6,7 +6,8 @@
       "Database\\": "src/database",
       "Logger\\": "src/logger",
       "Model\\": "src/model",
-      "Router\\": "src/router"
+      "Router\\": "src/router",
+      "Util\\": "src/util"
     },
     "files": [
       "src/config/Config.php"
