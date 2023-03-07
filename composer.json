@@ -4,6 +4,7 @@
       "App\\": "src/app",
       "Controller\\": "src/controller",
       "Database\\": "src/database",
+      "Http\\": "src/Http",
       "Logger\\": "src/logger",
       "Model\\": "src/model",
       "Router\\": "src/router",
