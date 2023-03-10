@@ -6,15 +6,9 @@ namespace Http;
 
 final readonly class Request
 {
-    public string $method;
+    public string $method, $uri;
 
-    public array $headers;
-
-    public array $params;
-
-    public array $vars;
-
-    public string $uri;
+    public array $headers, $params, $vars;
 
     public function __construct()
     {
