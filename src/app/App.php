@@ -4,23 +4,19 @@ declare(strict_types=1);
 
 namespace App;
 
-use Router\Router;
-
-readonly final class App
+final readonly class App
 {
-    public Router $router;
+    public \Http\Router $router;
 
     public function __construct()
     {
-        $this->router = new Router;
+        $this->router = new \Http\Router($_ENV['APP_URL']);
     }
 
     public function run(): void
     {
-        try {
-            $this->router->run();
-        } catch (\Exception $exception) {
-            \Controller\ErrorController::index($exception->getCode(), $exception->getMessage());
-        }
+        $response = $this->router->run();
+
+        $response->send();
     }
 }
