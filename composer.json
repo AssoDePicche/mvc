@@ -7,7 +7,6 @@
       "Http\\": "src/Http",
       "Logger\\": "src/logger",
       "Model\\": "src/model",
-      "Router\\": "src/router",
       "Util\\": "src/util"
     },
     "files": [
