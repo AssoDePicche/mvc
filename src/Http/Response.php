@@ -16,7 +16,7 @@ final class Response
         $this->headers['Content-Type'] = $contentType;
     }
 
-    public function send()
+    public function send(): never
     {
         http_response_code($this->statusCode);
 
