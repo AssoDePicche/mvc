@@ -6,6 +6,7 @@
       "Http\\": "src/Http",
       "Logger\\": "src/logger",
       "Model\\": "src/model",
+      "ORM\\": "src/Database/ORM",
       "Util\\": "src/util"
     },
     "files": [
