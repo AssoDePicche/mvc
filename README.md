@@ -30,7 +30,7 @@ The controller contains logic that updates the model and/or view in response to 
 - [ ] Form Widget Classes
 - [ ] Processing of Request Data
 - [ ] Validations
-- [ ] Active Record
+- [x] Active Record
 - [ ] Session Flash Messages
 - [ ] Middlewares
 - [x] Cache
